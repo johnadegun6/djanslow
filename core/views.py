@@ -25,3 +25,4 @@ class AddCcustomerView(APIView):
         if serializer.is_valid():
             serializer.save()
             return Response({'status':status.HTTP_201_CREATED})
+        return Response({'status':status.HTTP_400_BAD_REQUEST})
