@@ -33,6 +33,7 @@ jobs:
       -
         name: Run django unit test
         run: 
+          python -m pip install -r requirements.txt
           python manage.py test
 
 
