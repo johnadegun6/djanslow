@@ -2,7 +2,7 @@ from django.test import TestCase
 from rest_framework.test import APIClient, APITestCase
 from django.urls import reverse
 import sys
-from models import Customer
+# from models import Customer
 
 
 # Create your tests here.
